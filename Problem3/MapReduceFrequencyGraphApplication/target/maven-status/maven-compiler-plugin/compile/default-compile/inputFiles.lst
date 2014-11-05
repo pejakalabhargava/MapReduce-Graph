@@ -1,0 +1,5 @@
+/home/bkakran/Desktop/FinalRun/Problem3/MapReduceFrequencyGraphApplication/src/main/java/com/application/hadoop/graph/DegreeReducer.java
+/home/bkakran/Desktop/FinalRun/Problem3/MapReduceFrequencyGraphApplication/src/main/java/com/application/hadoop/graph/DegreeMapper.java
+/home/bkakran/Desktop/FinalRun/Problem3/MapReduceFrequencyGraphApplication/src/main/java/com/application/hadoop/graph/MapReduceFrquencyRunner.java
+/home/bkakran/Desktop/FinalRun/Problem3/MapReduceFrequencyGraphApplication/src/main/java/com/application/hadoop/graph/FrequencyMapper.java
+/home/bkakran/Desktop/FinalRun/Problem3/MapReduceFrequencyGraphApplication/src/main/java/com/application/hadoop/graph/FrequencyReducer.java

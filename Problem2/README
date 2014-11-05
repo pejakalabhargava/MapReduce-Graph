@@ -1,0 +1,19 @@
+#Running MapReduceDegreeGraphApplication on stanford graphs to calculate degree frequency
+
+1)#Compile and genreate jar using mvn
+cd MapReduceDegreeGraphApplication
+mvn clean install
+
+2)Copy the generated  jar to the hadoop location cp <jar_location> <hadoop_location>
+cp target/MapReduceDegreeGraphApplication-0.0.1.jar $HADOOP_PREFIX
+
+3)#copy the file to hdfs
+hadoop dfs -copyFromLocal /opt/facebook /facebook
+
+4)#Run the hadoop job
+ #USAGE hadoop jar MapReduceFrequencyGraphApplication-0.0.1.jar <input_graph_location> <output_location>
+
+hadoop jar MapReduceDegreeGraphApplication-0.0.1.jar  /facebook /facebook-output-deg
+
+5)#Get results
+sudo hadoop dfs -getmerge  /facebook-output-deg facebook-output

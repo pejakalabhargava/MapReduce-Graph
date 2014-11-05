@@ -1,0 +1,3 @@
+com/application/hadoop/graph/DegreeReducer.class
+com/application/hadoop/graph/MapReduceDegreeRunner.class
+com/application/hadoop/graph/DegreeMapper.class

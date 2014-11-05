@@ -1,0 +1,11 @@
+Steps to run with gprof:
+
+1)#Compile code woth gprof flag on
+cd MapReduce
+gcc -Wall -pg MapReduce.c  -o MapReduce_gprof
+
+2)#MapReduce.c takes two argumens. USage is ./MapReduce_gprof <input_file_name> <output_file_name>
+./MapReduce_gprof home/bkakran/stanford/google.graph output
+
+3)#Generate the profiler results
+gprof MapReduce_gprof gmon.out > analysis.txt
